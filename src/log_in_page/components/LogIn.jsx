@@ -11,7 +11,7 @@ class LogIn extends Component {
 			<div className='bg-black vh-100'>
 				<NavBar />
 				<Container className='bg-black'>
-					<Row>
+					<Row className='mt-5'>
 						<Col className=' border-bottom border-secondary'>
 							<h2>Edit Profile</h2>
 						</Col>

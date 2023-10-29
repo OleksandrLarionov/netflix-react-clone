@@ -10,14 +10,14 @@ class SettingsAccount extends Component {
 			<div className='bg-white'>
 				<NavBar />
 				<Container className='bg-whitevh-100'>
-					<Row className='border-bottom border-secondary'>
+					<Row className='border-bottom border-secondary mt-5'>
 						<Col>
 							<h2 className='fw-bold  text-black '>Account</h2>
 						</Col>
 					</Row>
 					<Row className=' border-bottom border-secondary'>
 						<Col md={4}>
-							<p className='text-secondary fw-bold opacity-50'>MEMBERSHIP & BILLING</p>
+							<p className='text-black fw-bold opacity-50'>MEMBERSHIP & BILLING</p>
 							<Button className='text-black opacity-75 ' variant='secondary'>
 								Cancel Membership
 							</Button>
