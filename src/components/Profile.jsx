@@ -2,8 +2,8 @@ import { Component } from 'react';
 import { Dropdown } from 'react-bootstrap';
 
 import ProfileImg from '../assets/1801287.svg';
-import DropdownButton from 'react-bootstrap/DropdownButton';
 import Image from 'react-bootstrap/Image';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 // icons
 import { FiSearch } from 'react-icons/fi';
 import { IoNotifications } from 'react-icons/io5';

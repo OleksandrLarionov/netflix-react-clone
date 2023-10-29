@@ -31,7 +31,7 @@ class CarouselGenge extends Component {
 	}
 	render() {
 		return (
-			<Container>
+			<Container className='bg-black'>
 				<p>{this.props.yourGenre}</p>
 				<Carousel indicators={false} controls={false} className='my-5'>
 					<Carousel.Item interval={4000}>

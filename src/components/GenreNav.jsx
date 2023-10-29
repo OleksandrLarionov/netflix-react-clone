@@ -11,7 +11,7 @@ class GenreNav extends Component {
 	};
 	render() {
 		return (
-			<Container fluid>
+			<Container fluid className='bg-black mt-5'>
 				<Row>
 					<Col className='d-flex align-items-center'>
 						<h2 className='text-white me-4'>Tv Shows</h2>

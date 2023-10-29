@@ -8,9 +8,9 @@ const { Container, Row, Col, InputGroup, Form, Dropdown, Button } = require('rea
 class LogIn extends Component {
 	render() {
 		return (
-			<div>
+			<div className='bg-black vh-100'>
 				<NavBar />
-				<Container>
+				<Container className='bg-black'>
 					<Row>
 						<Col className=' border-bottom border-secondary'>
 							<h2>Edit Profile</h2>
@@ -80,7 +80,10 @@ class LogIn extends Component {
 								<Col className='py-4'>
 									<Form>
 										<Form.Check type='checkbox'>
-											<Form.Check.Input type='checkbox' className='bg-black p-2' />
+											<Form.Check.Input
+												type='checkbox'
+												className='bg-black p-2 border-secondary'
+											/>
 											<Form.Check.Label>
 												<span className='text-secondary'>
 													Autoplay next episodes in a series on all devices.
@@ -88,7 +91,10 @@ class LogIn extends Component {
 											</Form.Check.Label>
 										</Form.Check>
 										<Form.Check type='checkbox'>
-											<Form.Check.Input type='checkbox' className='bg-black p-2' />
+											<Form.Check.Input
+												type='checkbox'
+												className='bg-black p-2 border-secondary'
+											/>
 											<Form.Check.Label>
 												<span className='text-secondary'>
 													Autoplay prewiews while browsing on all devices.

@@ -6,13 +6,12 @@ import Logo from '../assets/Netflix_2015_logo.svg';
 
 import Image from 'react-bootstrap/Image';
 import Profile from './Profile';
-import { Col, Row } from 'react-bootstrap';
 
 class NavBar extends Component {
 	render() {
 		return (
-			<Navbar expand='lg' className='p-0 my-4'>
-				<Container fluid>
+			<Navbar expand='lg' className='pt-4 bg-black'>
+				<Container fluid className='bg-black'>
 					<Navbar.Brand href='#home'>
 						<Image src={Logo} width='85' height='38' alt='logo' />
 					</Navbar.Brand>

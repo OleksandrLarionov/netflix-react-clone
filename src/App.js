@@ -5,10 +5,11 @@ import GenreNav from './components/GenreNav';
 import Footer from './components/Footer';
 import Main from './components/Main';
 import LogIn from './log_in_page/components/LogIn';
+import SettingsAccount from './settings/SettingsAccount';
 
 function App() {
 	return (
-		<>
+		<div className='bg-black'>
 			{/* <NavBar />
 			<GenreNav />
 			<div className='d-flex justify-content-center'>
@@ -16,7 +17,8 @@ function App() {
 			</div>
 			<Footer /> */}
 			<LogIn />
-		</>
+			{/* <SettingsAccount /> */}
+		</div>
 	);
 }
 
