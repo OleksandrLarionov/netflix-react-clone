@@ -4,16 +4,18 @@ import NavBar from './components/NavBar';
 import GenreNav from './components/GenreNav';
 import Footer from './components/Footer';
 import Main from './components/Main';
+import LogIn from './log_in_page/components/LogIn';
 
 function App() {
 	return (
 		<>
-			<NavBar />
+			{/* <NavBar />
 			<GenreNav />
 			<div className='d-flex justify-content-center'>
 				<Main />
 			</div>
-			<Footer />
+			<Footer /> */}
+			<LogIn />
 		</>
 	);
 }
