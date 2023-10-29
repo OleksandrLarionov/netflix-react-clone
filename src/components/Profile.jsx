@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import { Dropdown } from 'react-bootstrap';
+
 import ProfileImg from '../assets/1801287.svg';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Image from 'react-bootstrap/Image';
@@ -9,7 +10,7 @@ import { IoNotifications } from 'react-icons/io5';
 class Profile extends Component {
 	render() {
 		return (
-			<div>
+			<div className='d-flex align-items-center'>
 				<IoNotifications className='fs-2 me-3 text-white' />
 				<span className=' text-white'>KIDS</span>
 				<FiSearch className='fs-2 mx-3 text-white' />
@@ -20,12 +21,14 @@ class Profile extends Component {
 					alt='avatar logo'
 					className='bg-success'
 				/>
+
 				<DropdownButton
-					as='ButtonGroup'
+					title=''
 					key='start'
 					id={`dropdown-button-drop-start`}
+					size='small'
 					drop='start'
-					variant='black'
+					variant='dark'
 					className='text-white'>
 					<Dropdown.Item eventKey='1'>Profile</Dropdown.Item>
 					<Dropdown.Item eventKey='2'>Settings</Dropdown.Item>
